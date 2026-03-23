@@ -9,7 +9,7 @@ const HomeScreen = () => {
     try {
       // 1. Call your backend script
       //const response = await fetch('http://localhost:5000/scrape');
-      const API_URL = window.location.hostname === "localhost" ? "http://localhost:5000" : "https://ton-nom-de-service.onrender.com";
+      const API_URL = window.location.hostname === "localhost" ? "http://localhost:5000" : "https://cameroon-scraper.onrender.com";
 
       // Ensuite tu utilises API_URL dans tes fetch
       const response = await fetch(`${API_URL}/scrape`);
